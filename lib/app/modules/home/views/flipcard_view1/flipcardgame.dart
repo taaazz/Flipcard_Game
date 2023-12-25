@@ -194,6 +194,7 @@ class _FlipCardGameState extends State<FlipCardGame> {
             ),
           )
         : Scaffold(
+            backgroundColor: Colors.white,
             body: SafeArea(
               child: SingleChildScrollView(
                 child: Column(
@@ -338,7 +339,7 @@ class _FlipCardGameState extends State<FlipCardGame> {
                                 direction: FlipDirection.HORIZONTAL,
                                 front: Container(
                                   decoration: BoxDecoration(
-                                    color: Colors.grey,
+                                    color: Color.fromARGB(255, 233, 232, 232),
                                     borderRadius: BorderRadius.circular(5),
                                     boxShadow: [
                                       BoxShadow(
@@ -353,7 +354,7 @@ class _FlipCardGameState extends State<FlipCardGame> {
                                   child: Padding(
                                     padding: const EdgeInsets.all(5.0),
                                     child: Image.asset(
-                                      "lib/app/assets/images/flipcard/quest.png",
+                                      "lib/app/assets/QM.png",
                                     ),
                                   ),
                                 ),
